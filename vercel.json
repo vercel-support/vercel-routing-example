@@ -6,7 +6,7 @@
     },
     {
       "source": "/v2",
-      "destination": "https://vercel-routing-example-v2.vercel.app/v2"
+      "destination": "https://vercel-routing-example-v2.vercel.app/v2/example"
     },
     {
       "source": "/:match*",
