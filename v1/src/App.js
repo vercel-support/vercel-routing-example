@@ -8,23 +8,16 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/example">
+          <Route exact path="/example">
             <Example />
           </Route>
           <Route path="/example/:id">
             <ExampleIdPage />
           </Route>
-          <Route path="/">
-            <Home />
-          </Route>
         </Switch>
       </div>
     </Router>
   )
-}
-
-function Home() {
-  return <h2>Home</h2>
 }
 
 function ExampleIdPage() {
