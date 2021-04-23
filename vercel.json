@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/v2/:match*",
-      "destination": "https://vercel-routing-example-v2.vercel.app/v2/:match*"
+      "destination": "https://vercel-routing-example-next-v2.vercel-support.app/v2/:match*"
     },
     {
       "source": "/v2",
-      "destination": "https://vercel-routing-example-v2.vercel.app/v2/example"
+      "destination": "https://vercel-routing-example-next-v2.vercel-support.app/v2/example"
     },
     {
       "source": "/:match*",
-      "destination": "https://vercel-routing-example-v1.vercel.app/:match*"
+      "destination": "vercel-routing-example-v1-cra.vercel-support.app/:match*"
     },
     {
       "source": "/",
-      "destination": "https://vercel-routing-example-v1.vercel.app/example"
+      "destination": "vercel-routing-example-v1-cra.vercel-support.app/example"
     }
   ]
 }
