@@ -26,5 +26,5 @@ function ExampleIdPage() {
 }
 
 function Example() {
-  return <div>send help</div>
+  return <div>CRA App</div>
 }
