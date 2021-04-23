@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "vercel-routing-example-v1-cra.vercel-support.app/example"
+      "destination": "https://vercel-routing-example-v1-cra.vercel-support.app/example"
     },
     {
       "source": "/v2/:match*",
@@ -14,7 +14,7 @@
     },
     {
       "source": "/:match*",
-      "destination": "vercel-routing-example-v1-cra.vercel-support.app/:match*"
+      "destination": "https://vercel-routing-example-v1-cra.vercel-support.app/:match*"
     }
   ]
 }
