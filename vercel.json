@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "/:path*"
-    },
-    {
       "source": "/",
       "destination": "https://vercel-routing-example-v1-cra.vercel-support.app/example"
     },
